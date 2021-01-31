@@ -18,7 +18,7 @@ function Coin({
           <p className="symbol">{symbol}</p>
         </div>
         <div className="right-side">
-          <p>${price}</p>
+          <p>€{price}</p>
           <p>{volume.toLocaleString()}</p>
           <p className={price_change > 0 ? "green" : "red"}>
             {price_change.toFixed(2)}%

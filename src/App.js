@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Coin from "./Coin";
+import Navbar from "./Navbar";
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <form>
         <input
           className="search"

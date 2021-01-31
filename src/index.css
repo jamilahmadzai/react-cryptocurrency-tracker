@@ -15,7 +15,6 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 64px;
 }
 
 .green {
@@ -33,12 +32,9 @@ img {
 }
 
 .coin {
-  display: flex;
-  justify-content: space-between;
-
-  width: 1000px;
   margin: 10px auto;
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -58,7 +54,6 @@ img {
 
 .right-side {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: space-between;
   margin-left: 250px;
@@ -72,14 +67,12 @@ h1 {
 
 .symbol {
   text-transform: uppercase;
-  /* margin-left: 50px; */
   margin-left: 20%;
   font-size: 14px;
 }
 
 .search {
-  margin: 50px;
-  /* padding-left: 10px; */
+  margin: 40px;
   padding: 10px 0px 10px 15px;
   border-radius: 30px;
   border: 1px solid #dee2e6;
@@ -90,4 +83,15 @@ h1 {
   outline: none;
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
+}
+
+.navbar {
+  background-color: #dcdcdc;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar h2 {
+  color: #cc0066;
+  padding: 10px;
 }
